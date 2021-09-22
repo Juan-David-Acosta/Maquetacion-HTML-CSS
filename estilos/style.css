@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #f3f3f3;
+    font-family: 'Koh Santepheap', cursive;
+
+}
+
+.a{
+    text-decoration: none;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/*header*/
+.foto{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#yo{
+    width: 150px;
+    height: 170px;
+}
+
+.foto p{
+    color: #9B9B9B;
+}
+.foto h1{
+    color: #737174;
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#post a{
+    color:#737174; 
+    margin: 10px;
+
+}
+
+/*galeria*/
+.galery{
+    background: #f2f2f2;
+}
+.container-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+#imagen-galeria{
+    width: 40%;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+
+
